@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  background: #181828;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+}
+
+#terminal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
